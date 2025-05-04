@@ -13,6 +13,9 @@ const authOptions = {
       return true;
     },
   },
+  pages: {
+    signIn: "/login",
+  },
   secret: process.env.AUTH_SECRET,
 };
 
